@@ -1,0 +1,254 @@
+@keyframes box {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* header */
+
+.main-header {
+    width: 100%;
+    height: 997px;
+    background-image: url('img/pexels-oleksandr-pidvalnyi-1227513.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-bottom-left-radius: 350px;
+    border-bottom-right-radius: 350px;
+}
+
+.main-bg {
+    width: 100%;
+    height: 997px;
+    background-color: #0072ab1d;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.sun-icon {
+    width: 250px;
+    transform: rotate(180deg);
+    display: flex;
+    margin: auto;
+}
+
+.icon {
+    width: 90%;
+}
+
+.title-block {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+.letter {
+    font-size: 250px;
+    color: white;
+    font-family: 'Ruslan Display', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 200px;
+    color: white;
+    font-family: 'Ruslan Display', cursive;
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+    text-align: center;
+}
+
+.sub {
+    color: white;
+    font-family: 'Gabriela', serif;
+    font-size: 40px;
+    text-align: center;
+    line-height: 0;
+}
+
+
+/* country */
+
+.country {
+    display: flex !important;
+    justify-content: center;
+    margin-top: -30px !important;
+}
+
+#myVideo {
+    max-width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 15px;
+    position: static;
+}
+
+.shadow-uk {
+    box-shadow: 0px 0px 10px 10px #c7cab8;
+}
+
+.shadow-ru {
+    box-shadow: 0px 0px 10px 10px #84899c;
+}
+
+.shadow-bel {
+    box-shadow: 0px 0px 10px 10px #b1bfa6;
+}
+
+.video-block {
+    width: 100%;
+    height: 600px;
+}
+
+.title-uk {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+    color: #80760b;
+    text-transform: uppercase;
+}
+
+.pattern-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pattern-img {
+    width: 35px;
+}
+
+.pattern-img-big {
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title-ru {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+    color: #40495b;
+    text-transform: uppercase;
+}
+
+.title-bel {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+    color: #6f8e43;
+    text-transform: uppercase;
+}
+
+.sub-country {
+    font-family: 'Gabriela', serif;
+}
+
+.line-uk {
+    border: 2px solid #80760b;
+    width: 50%;
+}
+
+.line-ru {
+    border: 2px solid #40495b;
+    width: 50%;
+}
+
+.line-bel {
+    border: 2px solid #6f8e43;
+    width: 50%;
+}
+
+
+/* unity */
+
+.margin-up {
+    margin-top: 100px !important;
+}
+
+.unity {
+    font-family: 'Ruslan Display', cursive;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.matrioska {
+    width: 200px;
+    transition: 1s;
+}
+
+.matrioska:hover {
+    animation-name: box;
+    animation-duration: 0.2s;
+    animation-direction: reverse;
+}
+
+.matrioska-1 {
+    width: 100px;
+    margin-top: 100px;
+}
+
+.matrioska-1:hover {
+    animation-name: box;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+.matrioska-2 {
+    width: 50px;
+    margin-top: 150px;
+}
+
+.matrioska-2:hover {
+    animation-name: box;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+}
+
+.unity-img {
+    width: 300px;
+}
+
+.unity-text {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Gabriela', serif;
+    margin: 0 auto;
+}
+
+.cite {
+    width: 50px;
+    margin: 0 auto;
+}
+
+
+/* footer */
+
+.footer-main {
+    background-image: url(img/pexels-oleksandr-pidvalnyi-1227513.jpg);
+    background-position: center;
+    height: 400px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
